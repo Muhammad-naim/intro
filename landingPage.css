@@ -1,0 +1,144 @@
+body
+    {
+       height: 100%;
+       width: 100%;
+    }
+.bgImg
+{
+       display: block;
+       background-image: url(/photos/bg2.jpg);
+       filter: blur(8px);
+       background-color: #696965; 
+       height: 100vh; 
+       width: 100vw;
+       background-position: center; 
+       background-repeat: no-repeat; 
+       background-size: cover;
+}    
+.mainContainer
+{   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 10px; 
+    width: 100%;
+    z-index: 2;
+    margin: auto;
+    align-items: center;
+}
+.photoContainer
+    {
+        height: auto;
+        width: auto; 
+        z-index: 2;
+    }
+.photo
+    {
+        display: block;
+        height: 200px;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px solid black;
+        border-radius: 50%;
+        
+    }
+.Info
+    {
+        height: auto;
+        width: 100%;
+        position: absolute;
+        z-index: 2;
+    }
+    .text
+    {
+        width: 100%;
+        text-align: center;
+        color: white;
+        text-shadow: 0px 0px 5px black;
+        margin: auto;
+        border: none;
+    }
+    
+   .Name
+    {
+        font-size: 34px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        text-shadow: 0px 0px 5px black;
+        font-weight: 600;
+
+    }
+    a.institutee
+    {
+        font-size: 24px;
+        text-decoration-line: none;
+        font-weight: 600;
+        color: white;
+        text-shadow: 0px 0px 5px black;
+    }
+    a.institutee:hover
+    {
+        color: aqua;
+        text-shadow: 0px 0px 9px black;
+    }
+    .dept  , .Batch 
+    {
+        font-size: 24px;
+        text-decoration-line: none;
+        font-weight: 600;
+    }
+    .cnt
+    {
+        font-size: 24px;
+        display: block;
+        /* text-align: center; */
+        padding-top: 10px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+        color: aqua;
+        text-shadow: 0px 0px 5px black;
+        text-decoration-line: none;
+        font-weight: normal;
+    }
+    .contactContainer
+    {
+        height: auto;
+        text-align: left;
+
+    }
+    .contact{
+        padding-left: 0px;
+        color: aqua;
+        text-shadow: 0px 0px 5px black;
+    }
+    ul{
+        list-style: none;
+        margin-top: 0%;
+        padding-left: 90px;
+        
+    }
+    
+    .mail , .phone , .fb , .insta, .github
+    {
+        text-decoration: none;
+        color: whitesmoke;
+        text-shadow: 0px 0px 5px black;
+        font-weight: 600;
+    }
+    a.mail:hover , a.phone:hover , a.fb:hover , a.insta:hover, a.github:hover{
+        font-size: 20px;
+        color: aqua;
+        text-shadow: 0px 0px 9px black;
+    }
+    .icnImg
+    {
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+    }
+    .Txt{
+        position: absolute ;
+        padding-bottom: 5px;
+        padding-left: 3px;
+    }
+    
